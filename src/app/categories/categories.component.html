@@ -1,0 +1,3 @@
+<div *ngFor="let category of categories">
+  <a [routerLink]="['/quiz', playerName, category.name]">{{ category.name }}</a>
+</div>

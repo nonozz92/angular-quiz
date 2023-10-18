@@ -1,0 +1,882 @@
+{
+  "categories": [
+    { "id": 1, "name": "Ferrari" },
+    { "id": 2, "name": "Lamborghini" },
+    { "id": 3, "name": "Porsche" },
+    { "id": 4, "name": "Audi" }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "label": "Dans quelle ville italienne est basée Ferrari?"
+    },
+    {
+      "id": 2,
+      "categoryId": 1,
+      "label": "Quel modèle Ferrari a été produit pour la première fois en 1980?"
+    },
+    {
+      "id": 3,
+      "categoryId": 1,
+      "label": "Quel célèbre circuit est propriété de Ferrari?"
+    },
+    {
+      "id": 4,
+      "categoryId": 1,
+      "label": "Quelle couleur est généralement associée aux voitures Ferrari?"
+    },
+    {
+      "id": 5,
+      "categoryId": 1,
+      "label": "Quel est le nom du département de course de Ferrari?"
+    },
+    { "id": 6, "categoryId": 1, "label": "Qui a fondé Ferrari?" },
+    {
+      "id": 7,
+      "categoryId": 1,
+      "label": "En quelle année a été lancée la Ferrari F40?"
+    },
+    {
+      "id": 8,
+      "categoryId": 1,
+      "label": "Quel animal figure sur le logo de Ferrari?"
+    },
+    {
+      "id": 9,
+      "categoryId": 1,
+      "label": "Comment s'appelle la voiture hybride produite par Ferrari en 2013?"
+    },
+    {
+      "id": 10,
+      "categoryId": 1,
+      "label": "Quel est le principal concurrent de Ferrari en Formule 1?"
+    },
+
+    {
+      "id": 11,
+      "categoryId": 2,
+      "label": "Quel est le nom du premier modèle de production de Lamborghini?"
+    },
+    {
+      "id": 12,
+      "categoryId": 2,
+      "label": "En quelle année Lamborghini a-t-il été fondé?"
+    },
+    {
+      "id": 13,
+      "categoryId": 2,
+      "label": "Quel animal est représenté sur le logo de Lamborghini?"
+    },
+    {
+      "id": 14,
+      "categoryId": 2,
+      "label": "Quel est le nom du SUV produit par Lamborghini?"
+    },
+    {
+      "id": 15,
+      "categoryId": 2,
+      "label": "Quel modèle Lamborghini a été nommé en l'honneur d'un taureau de combat?"
+    },
+    {
+      "id": 16,
+      "categoryId": 2,
+      "label": "Dans quelle région italienne Lamborghini est-il basé?"
+    },
+    {
+      "id": 17,
+      "categoryId": 2,
+      "label": "Quelle est la vitesse maximale de la Lamborghini Aventador SVJ?"
+    },
+    {
+      "id": 18,
+      "categoryId": 2,
+      "label": "Quel modèle Lamborghini a été présenté au public en 1966?"
+    },
+    {
+      "id": 19,
+      "categoryId": 2,
+      "label": "Quelle est la puissance du moteur de la Lamborghini Sián FKP 37?"
+    },
+    {
+      "id": 20,
+      "categoryId": 2,
+      "label": "Quel modèle de Lamborghini est un hommage à Ferruccio Lamborghini?"
+    },
+
+    {
+      "id": 21,
+      "categoryId": 3,
+      "label": "Quel modèle Porsche est le plus vendu de tous les temps?"
+    },
+    {
+      "id": 22,
+      "categoryId": 3,
+      "label": "En quelle année Porsche a-t-il été fondé?"
+    },
+    {
+      "id": 23,
+      "categoryId": 3,
+      "label": "Quel est le modèle le plus puissant produit par Porsche en 2020?"
+    },
+    { "id": 24, "categoryId": 3, "label": "Qui est le fondateur de Porsche?" },
+    {
+      "id": 25,
+      "categoryId": 3,
+      "label": "Quelle est la signification des chiffres 911 dans le modèle Porsche 911?"
+    },
+    {
+      "id": 26,
+      "categoryId": 3,
+      "label": "Quel est le nom du SUV compact produit par Porsche?"
+    },
+    {
+      "id": 27,
+      "categoryId": 3,
+      "label": "Dans quel pays Porsche a-t-il été fondé?"
+    },
+    {
+      "id": 28,
+      "categoryId": 3,
+      "label": "Quel est le nom de la première voiture électrique de Porsche?"
+    },
+    {
+      "id": 29,
+      "categoryId": 3,
+      "label": "Quel est le principal marché de Porsche en termes de ventes?"
+    },
+    {
+      "id": 30,
+      "categoryId": 3,
+      "label": "Quel est le nom du circuit d'essai de Porsche en Allemagne?"
+    },
+
+    {
+      "id": 31,
+      "categoryId": 4,
+      "label": "Quel est le slogan emblématique d'Audi?"
+    },
+    {
+      "id": 32,
+      "categoryId": 4,
+      "label": "Quel modèle Audi est une supercar à deux places?"
+    },
+    {
+      "id": 33,
+      "categoryId": 4,
+      "label": "Quels sont les quatre anneaux du logo d'Audi représentant?"
+    },
+    {
+      "id": 34,
+      "categoryId": 4,
+      "label": "En quelle année Audi a-t-il été fondé?"
+    },
+    {
+      "id": 35,
+      "categoryId": 4,
+      "label": "Quel est le nom du système de traction intégrale développé par Audi?"
+    },
+    {
+      "id": 36,
+      "categoryId": 4,
+      "label": "Dans quelle ville allemande est basée Audi?"
+    },
+    {
+      "id": 37,
+      "categoryId": 4,
+      "label": "Quel est le nom du salon de l'automobile où Audi présente généralement ses nouveaux modèles?"
+    },
+    {
+      "id": 38,
+      "categoryId": 4,
+      "label": "Quel est le nom du modèle Audi qui concurrence directement la Mercedes-Benz Classe S?"
+    },
+    {
+      "id": 39,
+      "categoryId": 4,
+      "label": "Quel est le nom de la technologie d'éclairage avancée développée par Audi?"
+    },
+    {
+      "id": 40,
+      "categoryId": 4,
+      "label": "En quelle année Audi a-t-il lancé son premier modèle électrique?"
+    }
+  ],
+  "answers": [
+    { "questionId": 1, "answerId": 1, "label": "Maranello", "isCorrect": true },
+    { "questionId": 1, "answerId": 2, "label": "morti", "isCorrect": false },
+    { "questionId": 1, "answerId": 3, "label": "milan", "isCorrect": false },
+    { "questionId": 1, "answerId": 4, "label": "rome", "isCorrect": false },
+
+    {
+      "questionId": 2,
+      "answerId": 5,
+      "label": "Ferrari Mondial",
+      "isCorrect": true
+    },
+    {
+      "questionId": 2,
+      "answerId": 6,
+      "label": "Ferrari inernational",
+      "isCorrect": false
+    },
+    {
+      "questionId": 2,
+      "answerId": 7,
+      "label": "Ferrari europia",
+      "isCorrect": false
+    },
+    {
+      "questionId": 2,
+      "answerId": 8,
+      "label": "Ferrari boré",
+      "isCorrect": false
+    },
+
+    {
+      "questionId": 3,
+      "answerId": 9,
+      "label": "Circuit de Fiorano",
+      "isCorrect": true
+    },
+    {
+      "questionId": 3,
+      "answerId": 10,
+      "label": "Circuit balantin",
+      "isCorrect": false
+    },
+    {
+      "questionId": 3,
+      "answerId": 11,
+      "label": "Circuit carieto",
+      "isCorrect": false
+    },
+    {
+      "questionId": 3,
+      "answerId": 12,
+      "label": "Circuit faro",
+      "isCorrect": false
+    },
+
+    { "questionId": 4, "answerId": 13, "label": "Rouge", "isCorrect": true },
+    { "questionId": 4, "answerId": 14, "label": "vert", "isCorrect": false },
+    { "questionId": 4, "answerId": 15, "label": "noir", "isCorrect": false },
+    { "questionId": 4, "answerId": 16, "label": "jaune", "isCorrect": false },
+
+    {
+      "questionId": 5,
+      "answerId": 17,
+      "label": "Scuderia Ferrari",
+      "isCorrect": true
+    },
+    {
+      "questionId": 5,
+      "answerId": 18,
+      "label": "cidace Ferrari",
+      "isCorrect": false
+    },
+    {
+      "questionId": 5,
+      "answerId": 19,
+      "label": "bario Ferrari",
+      "isCorrect": false
+    },
+    {
+      "questionId": 5,
+      "answerId": 20,
+      "label": "Scuderio Ferrari",
+      "isCorrect": false
+    },
+
+    {
+      "questionId": 6,
+      "answerId": 21,
+      "label": "Enzo Ferrari",
+      "isCorrect": true
+    },
+    {
+      "questionId": 6,
+      "answerId": 22,
+      "label": "roberto Ferrari",
+      "isCorrect": false
+    },
+    {
+      "questionId": 6,
+      "answerId": 23,
+      "label": "pablo Ferrari",
+      "isCorrect": false
+    },
+    {
+      "questionId": 6,
+      "answerId": 24,
+      "label": "eric Ferrari",
+      "isCorrect": false
+    },
+
+    { "questionId": 7, "answerId": 25, "label": "1987", "isCorrect": true },
+    { "questionId": 7, "answerId": 26, "label": "1986", "isCorrect": false },
+    { "questionId": 7, "answerId": 27, "label": "1985", "isCorrect": false },
+    { "questionId": 7, "answerId": 28, "label": "1984", "isCorrect": false },
+
+    {
+      "questionId": 8,
+      "answerId": 29,
+      "label": "Un cheval cabré",
+      "isCorrect": true
+    },
+    {
+      "questionId": 8,
+      "answerId": 30,
+      "label": "Un cheval couché",
+      "isCorrect": false
+    },
+    {
+      "questionId": 8,
+      "answerId": 31,
+      "label": "Un taureau",
+      "isCorrect": false
+    },
+    {
+      "questionId": 8,
+      "answerId": 32,
+      "label": "un tigre",
+      "isCorrect": false
+    },
+
+    {
+      "questionId": 9,
+      "answerId": 33,
+      "label": "LaFerrari",
+      "isCorrect": true
+    },
+    {
+      "questionId": 9,
+      "answerId": 34,
+      "label": "L'hybride fera",
+      "isCorrect": false
+    },
+    { "questionId": 9, "answerId": 35, "label": "x-12", "isCorrect": false },
+    { "questionId": 9, "answerId": 36, "label": "r-16", "isCorrect": false },
+
+    { "questionId": 10, "answerId": 37, "label": "McLaren", "isCorrect": true },
+    {
+      "questionId": 10,
+      "answerId": 38,
+      "label": "McLoren",
+      "isCorrect": false
+    },
+    {
+      "questionId": 10,
+      "answerId": 39,
+      "label": "Mc-Laren",
+      "isCorrect": false
+    },
+    {
+      "questionId": 10,
+      "answerId": 40,
+      "label": "MkLaren",
+      "isCorrect": false
+    },
+
+    {
+      "questionId": 11,
+      "answerId": 41,
+      "label": "Lamborghini 350 GT",
+      "isCorrect": true
+    },
+    {
+      "questionId": 11,
+      "answerId": 42,
+      "label": "Lamborghini 250 GT",
+      "isCorrect": false
+    },
+    {
+      "questionId": 11,
+      "answerId": 43,
+      "label": "Lamborghini 650 GT",
+      "isCorrect": false
+    },
+    {
+      "questionId": 11,
+      "answerId": 44,
+      "label": "Lamborghini 210 GT",
+      "isCorrect": false
+    },
+
+    { "questionId": 12, "answerId": 45, "label": "1963", "isCorrect": true },
+    { "questionId": 12, "answerId": 46, "label": "1953", "isCorrect": false },
+    { "questionId": 12, "answerId": 47, "label": "1900", "isCorrect": false },
+    { "questionId": 12, "answerId": 48, "label": "1978", "isCorrect": false },
+
+    {
+      "questionId": 13,
+      "answerId": 49,
+      "label": "Un taureau",
+      "isCorrect": true
+    },
+    {
+      "questionId": 13,
+      "answerId": 50,
+      "label": "Un puma",
+      "isCorrect": false
+    },
+    {
+      "questionId": 13,
+      "answerId": 51,
+      "label": "Un cock",
+      "isCorrect": false
+    },
+    {
+      "questionId": 13,
+      "answerId": 52,
+      "label": "Un cheval",
+      "isCorrect": false
+    },
+
+    { "questionId": 14, "answerId": 53, "label": "Urus", "isCorrect": true },
+    {
+      "questionId": 14,
+      "answerId": 54,
+      "label": "grantorino",
+      "isCorrect": false
+    },
+    { "questionId": 14, "answerId": 55, "label": "venom", "isCorrect": false },
+    {
+      "questionId": 14,
+      "answerId": 56,
+      "label": "california",
+      "isCorrect": false
+    },
+
+    {
+      "questionId": 15,
+      "answerId": 57,
+      "label": "Presque tous les modèles",
+      "isCorrect": true
+    },
+    {
+      "questionId": 15,
+      "answerId": 58,
+      "label": "aucun modèle",
+      "isCorrect": false
+    },
+    {
+      "questionId": 15,
+      "answerId": 59,
+      "label": "certains modèles",
+      "isCorrect": false
+    },
+    {
+      "questionId": 15,
+      "answerId": 60,
+      "label": "pas tous les modèles",
+      "isCorrect": false
+    },
+
+    {
+      "questionId": 16,
+      "answerId": 61,
+      "label": "Émilie-Romagne",
+      "isCorrect": true
+    },
+    {
+      "questionId": 16,
+      "answerId": 62,
+      "label": "julie-Romagne",
+      "isCorrect": false
+    },
+    {
+      "questionId": 16,
+      "answerId": 63,
+      "label": "rosa-Romagne",
+      "isCorrect": false
+    },
+    {
+      "questionId": 16,
+      "answerId": 64,
+      "label": "maria-Romagne",
+      "isCorrect": false
+    },
+
+    {
+      "questionId": 17,
+      "answerId": 65,
+      "label": "352 km/h",
+      "isCorrect": true
+    },
+    {
+      "questionId": 17,
+      "answerId": 66,
+      "label": "252 km/h",
+      "isCorrect": false
+    },
+    {
+      "questionId": 17,
+      "answerId": 67,
+      "label": "311 km/h",
+      "isCorrect": false
+    },
+    {
+      "questionId": 17,
+      "answerId": 68,
+      "label": "325 km/h",
+      "isCorrect": false
+    },
+
+    {
+      "questionId": 18,
+      "answerId": 69,
+      "label": "Lamborghini Miura",
+      "isCorrect": true
+    },
+    {
+      "questionId": 18,
+      "answerId": 70,
+      "label": "Lamborghini Maria",
+      "isCorrect": false
+    },
+    {
+      "questionId": 18,
+      "answerId": 71,
+      "label": "Lamborghini Morina",
+      "isCorrect": false
+    },
+    {
+      "questionId": 18,
+      "answerId": 72,
+      "label": "Lamborghini Miura",
+      "isCorrect": false
+    },
+
+    {
+      "questionId": 19,
+      "answerId": 73,
+      "label": "819 ch (602 kW)",
+      "isCorrect": true
+    },
+    {
+      "questionId": 19,
+      "answerId": 74,
+      "label": "719 ch (521 kW)",
+      "isCorrect": false
+    },
+    {
+      "questionId": 19,
+      "answerId": 75,
+      "label": "800 ch (580 kW)",
+      "isCorrect": false
+    },
+    {
+      "questionId": 19,
+      "answerId": 76,
+      "label": "815 ch (590 kW)",
+      "isCorrect": false
+    },
+
+    {
+      "questionId": 20,
+      "answerId": 77,
+      "label": "Centenario",
+      "isCorrect": true
+    },
+    {
+      "questionId": 20,
+      "answerId": 78,
+      "label": "Centena",
+      "isCorrect": false
+    },
+    {
+      "questionId": 20,
+      "answerId": 79,
+      "label": "torinia",
+      "isCorrect": false
+    },
+    {
+      "questionId": 20,
+      "answerId": 80,
+      "label": "tenario",
+      "isCorrect": false
+    },
+
+    {
+      "questionId": 21,
+      "answerId": 81,
+      "label": "Porsche 911",
+      "isCorrect": true
+    },
+    {
+      "questionId": 21,
+      "answerId": 82,
+      "label": "Porsche 944",
+      "isCorrect": false
+    },
+    {
+      "questionId": 21,
+      "answerId": 83,
+      "label": "Porsche Panamera",
+      "isCorrect": false
+    },
+    {
+      "questionId": 21,
+      "answerId": 84,
+      "label": "Porsche Cayman",
+      "isCorrect": false
+    },
+
+    { "questionId": 22, "answerId": 85, "label": "1931", "isCorrect": true },
+    { "questionId": 22, "answerId": 86, "label": "1945", "isCorrect": false },
+    { "questionId": 22, "answerId": 87, "label": "1925", "isCorrect": false },
+    { "questionId": 22, "answerId": 88, "label": "1950", "isCorrect": false },
+
+    {
+      "questionId": 23,
+      "answerId": 89,
+      "label": "911 GT2 RS",
+      "isCorrect": true
+    },
+    {
+      "questionId": 23,
+      "answerId": 90,
+      "label": "Cayenne Turbo",
+      "isCorrect": false
+    },
+    {
+      "questionId": 23,
+      "answerId": 91,
+      "label": "Panamera GTS",
+      "isCorrect": false
+    },
+    {
+      "questionId": 23,
+      "answerId": 92,
+      "label": "Boxster S",
+      "isCorrect": false
+    },
+
+    {
+      "questionId": 24,
+      "answerId": 93,
+      "label": "Ferdinand Porsche",
+      "isCorrect": true
+    },
+    {
+      "questionId": 24,
+      "answerId": 94,
+      "label": "Porsche cera",
+      "isCorrect": false
+    },
+    {
+      "questionId": 24,
+      "answerId": 95,
+      "label": "breno Porsche",
+      "isCorrect": false
+    },
+    {
+      "questionId": 24,
+      "answerId": 96,
+      "label": "Ferdinant Porsche",
+      "isCorrect": false
+    },
+
+    {
+      "questionId": 25,
+      "answerId": 97,
+      "label": "Il s'agit simplement d'un numéro de modèle, sans signification particulière",
+      "isCorrect": true
+    },
+    {
+      "questionId": 25,
+      "answerId": 98,
+      "label": "Il s'agit  d'un numéro specifique  de modèle",
+      "isCorrect": false
+    },
+    {
+      "questionId": 25,
+      "answerId": 99,
+      "label": "Il s'agit simplement d'un numéro de modèle, avec une signification particulière",
+      "isCorrect": false
+    },
+    {
+      "questionId": 25,
+      "answerId": 100,
+      "label": "Il s'agit simplement d'un numéro de référence",
+      "isCorrect": false
+    },
+
+    { "questionId": 26, "answerId": 101, "label": "Macan", "isCorrect": true },
+    { "questionId": 26, "answerId": 102, "label": "Macon", "isCorrect": false },
+    { "questionId": 26, "answerId": 103, "label": "Mican", "isCorrect": false },
+    { "questionId": 26, "answerId": 104, "label": "Mucan", "isCorrect": false },
+
+    {
+      "questionId": 27,
+      "answerId": 105,
+      "label": "Allemagne",
+      "isCorrect": true
+    },
+    {
+      "questionId": 27,
+      "answerId": 106,
+      "label": "france",
+      "isCorrect": false
+    },
+    {
+      "questionId": 27,
+      "answerId": 107,
+      "label": "portugal",
+      "isCorrect": false
+    },
+    {
+      "questionId": 27,
+      "answerId": 108,
+      "label": "espagne",
+      "isCorrect": false
+    },
+
+    { "questionId": 28, "answerId": 107, "label": "Taycan", "isCorrect": true },
+    {
+      "questionId": 28,
+      "answerId": 108,
+      "label": "Taycon",
+      "isCorrect": false
+    },
+    {
+      "questionId": 28,
+      "answerId": 109,
+      "label": "Taycin",
+      "isCorrect": false
+    },
+    { "questionId": 28, "answerId": 110, "label": "Tay", "isCorrect": false },
+
+    { "questionId": 29, "answerId": 107, "label": "Chine", "isCorrect": true },
+    { "questionId": 29, "answerId": 111, "label": "coré", "isCorrect": false },
+    { "questionId": 29, "answerId": 112, "label": "inde", "isCorrect": false },
+    { "questionId": 29, "answerId": 113, "label": "japon", "isCorrect": false },
+
+    {
+      "questionId": 30,
+      "answerId": 114,
+      "label": "Leipzig",
+      "isCorrect": true
+    },
+    {
+      "questionId": 30,
+      "answerId": 115,
+      "label": "Leipzog",
+      "isCorrect": false
+    },
+    {
+      "questionId": 30,
+      "answerId": 116,
+      "label": "lokino",
+      "isCorrect": false
+    },
+    { "questionId": 30, "answerId": 117, "label": "Leipo", "isCorrect": false },
+
+    {
+      "questionId": 31,
+      "answerId": 118,
+      "label": "Vorsprung durch Technik",
+      "isCorrect": true
+    },
+    {
+      "questionId": 31,
+      "answerId": 119,
+      "label": "Vorsprung ",
+      "isCorrect": false
+    },
+    {
+      "questionId": 31,
+      "answerId": 120,
+      "label": "Vorsprung turch Technik",
+      "isCorrect": false
+    },
+    {
+      "questionId": 31,
+      "answerId": 121,
+      "label": "Vorsprung duro",
+      "isCorrect": false
+    },
+
+    {
+      "questionId": 32,
+      "answerId": 122,
+      "label": "Audi R8",
+      "isCorrect": true
+    },
+    {
+      "questionId": 32,
+      "answerId": 123,
+      "label": "Audi R7",
+      "isCorrect": false
+    },
+    {
+      "questionId": 32,
+      "answerId": 124,
+      "label": "Audi R6",
+      "isCorrect": false
+    },
+    {
+      "questionId": 32,
+      "answerId": 125,
+      "label": "Audi R5",
+      "isCorrect": false
+    },
+
+    {
+      "questionId": 33,
+      "answerId": 126,
+      "label": "Ils représentent les quatre entreprises fondatrices d'Auto Union: Audi, DKW, Horch et Wanderer",
+      "isCorrect": true
+    },
+    { "questionId": 34, "answerId": 127, "label": "1909", "isCorrect": true },
+    {
+      "questionId": 35,
+      "answerId": 128,
+      "label": "Quattro",
+      "isCorrect": true
+    },
+    {
+      "questionId": 36,
+      "answerId": 129,
+      "label": "Ingolstadt",
+      "isCorrect": true
+    },
+    {
+      "questionId": 37,
+      "answerId": 130,
+      "label": "Salon de l'automobile de Francfort",
+      "isCorrect": true
+    },
+    {
+      "questionId": 38,
+      "answerId": 131,
+      "label": "Audi A8",
+      "isCorrect": true
+    },
+    {
+      "questionId": 39,
+      "answerId": 132,
+      "label": "Matrix LED",
+      "isCorrect": true
+    },
+    {
+      "questionId": 40,
+      "answerId": 133,
+      "label": "2018 (Audi e-tron)",
+      "isCorrect": true
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin"
+    },
+    {
+      "id": 2,
+      "username": "user",
+      "password": "user"
+    }
+  ]
+}

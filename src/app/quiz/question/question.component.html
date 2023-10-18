@@ -1,0 +1,6 @@
+<div *ngFor="let question of quizContent">
+  <h3>{{ question.question }}</h3>
+  <ul>
+    <li *ngFor="let answer of question.answers">{{ answer.answerLabel }}</li>
+  </ul>
+</div>
